@@ -34,4 +34,3 @@ class MyAccountPage:
 
     def get_error_msg(self):
         return self.driver.find_element(*self.error_msg).text
-

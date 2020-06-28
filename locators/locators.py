@@ -2,8 +2,6 @@ from selenium.webdriver.common.by import By
 
 
 class BillingAddressLocators:
-    # Krotka dwuelementowa (technika lokalizowania, wartość lokatora)
-
     addresses_link = (By.LINK_TEXT, "Addresses")
     edit_link = (By.LINK_TEXT, "Edit")
     first_name_input = (By.ID, "billing_first_name")
